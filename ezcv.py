@@ -181,7 +181,7 @@ class EzCV:
             cv2.waitKey(1)
 
     def __init__(
-        self, ip="localhost", port="11111", width=1280, height=720, useYuNet=False
+        self, ip="192.168.10.1", port="11111", width=1280, height=720, useYuNet=False
     ):
         print("init")
         EzCV.__instance = self

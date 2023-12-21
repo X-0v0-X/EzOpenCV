@@ -8,7 +8,7 @@ try:
         frame = ezcv.drawRectToFace(frame)
         frame = ezcv.drawRectToEyes(frame)
         frame = ezcv.drawRibbonToFace(frame)
-        cv2.imshow("", frame)
+        cv2.imshow("ESCキーを押すと終了", frame)
 
         # ESCキーを押すと終了
         key = cv2.waitKey(1) & 0xFF
