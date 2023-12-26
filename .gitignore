@@ -1,4 +1,5 @@
-.vscode/settings.json
-haarcascade_frontalface_default.xml
-ribbon-sm.png
-ribbon.png
+.vscode/*
+tello.py
+__pycache__/*
+sample05/*
+sample05.zip
