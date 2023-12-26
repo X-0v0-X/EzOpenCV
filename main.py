@@ -2,13 +2,13 @@ import ezcv
 import cv2
 
 try:
-    ezcv.useYuNet()  # 顔認識の方法を変える
+    # ezcv.useYuNet()  # 顔認識の方法を変える
     while True:
         frame = ezcv.getFrame()
         frame = ezcv.drawRectToFace(frame)
         frame = ezcv.drawRectToEyes(frame)
         frame = ezcv.drawRibbonToFace(frame)
-        cv2.imshow("ESCキーを押すと終了", frame)
+        cv2.imshow("ESCキーを押すと終了d", frame)
 
         # ESCキーを押すと終了
         key = cv2.waitKey(1) & 0xFF
